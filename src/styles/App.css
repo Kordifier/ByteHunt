@@ -4,7 +4,7 @@
 }
 
 h1 {
-    opacity: 90%;
+    opacity: 0.9;
     font-size: 28px;
     letter-spacing: 1px;
     position: absolute;
@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-    opacity: 70%;
+    opacity: 0.7;
     font-size: 15px;
     color: white;
     font-family: 'Noto Sans', sans-serif;
@@ -25,7 +25,7 @@ p {
 }
 
 #hamburger {
-    opacity: 50%;
+    opacity: 0.5;
     position: absolute;
     width: 28px;
     top: 20px;
@@ -34,13 +34,13 @@ p {
 }
 
 #hamburger:hover {
-    opacity: 80%;
+    opacity: 0.8;
 }
 
 #navLine {
     position: absolute;
     background-color: white;
-    opacity: 15%;
+    opacity: 0.15;
     top: 70px;
     height: 1px;
     width: 100%;
@@ -124,7 +124,7 @@ p {
 }
 
 #colorCircleOuter {
-    opacity: 80%;
+    opacity: 0.8;
     position: absolute;
     height: 370px;
     width: 370px;
@@ -134,7 +134,7 @@ p {
 }
 
 #colorCircle {
-    opacity: 40%;
+    opacity: 0.4;
     position: absolute;
     height: 350px;
     width: 350px;
@@ -153,13 +153,13 @@ p {
 
 @keyframes glow {
     0% {
-        opacity: 40%;
+        opacity: 0.4;
     } 
     50% {
-        opacity: 100%;
+        opacity: 1;
     }
     100% {
-        opacity: 40%;
+        opacity: 0.4;
     } 
 }
 
