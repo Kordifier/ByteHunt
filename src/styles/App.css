@@ -111,7 +111,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 668px;
+    height: 800px;
     width: 100%;
     background: linear-gradient(-90deg, #21243d, black);
 }

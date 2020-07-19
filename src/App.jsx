@@ -65,27 +65,27 @@ return (
     <div>
         <header>
             <div id="mySidenav" className="sidenav">
-            <div>
+                <div>
 
-            <div className="selectorLeft">
-            <select className="selectorStyle" onChange={makeCurrency} name="currency">
-            <option>Currency</option>
-            <option value="BTC">BTC</option>
-            <option value="LTC">LTC</option>
-            <option value="ETH">ETH</option>
-            </select>   
-            </div>
+                    <div className="selectorLeft">
+                        <select className="selectorStyle" onChange={makeCurrency} name="currency">
+                        <option>Currency</option>
+                        <option value="BTC">BTC</option>
+                        <option value="LTC">LTC</option>
+                        <option value="ETH">ETH</option>
+                        </select>   
+                    </div>
 
-            <div className="selectorRight">
-            <select className="selectorStyle" onChange={makeExchange} name="exchange">
-            <option>Exchange</option>
-            <option value="USD">USD</option>
-            <option value="GBP">GBP</option>
-            <option value="EUR">EUR</option>
-            </select> 
-            </div> 
-            
-            </div>
+                    <div className="selectorRight">
+                    <select className="selectorStyle" onChange={makeExchange} name="exchange">
+                    <option>Exchange</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    </select> 
+                    </div> 
+                
+                </div>
             <button onClick={makeRequest} className="mainButton"><p>search</p></button>
             </div>
         </header>
